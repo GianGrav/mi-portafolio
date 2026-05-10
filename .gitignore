@@ -1,3 +1,7 @@
+README.md
+.claude/
+CLAUDE.md
+
 # Environment variables
 .env
 .env.local

@@ -1,0 +1,13 @@
+<svg width="160" height="80" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="champagne" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7E7CE"></stop>
+      <stop offset="50%" stop-color="#E6D3A3"></stop>
+      <stop offset="100%" stop-color="#C5A46D"></stop>
+    </linearGradient>
+  </defs>
+
+  <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="48" fill="url(#champagne)" letter-spacing="4">
+    G.G.
+  </text>
+</svg>

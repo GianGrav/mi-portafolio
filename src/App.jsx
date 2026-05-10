@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser'
 const EMAILJS_SERVICE_ID  = import.meta.env.VITE_EMAILJS_SERVICE_ID
 const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
 const EMAILJS_PUBLIC_KEY  = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+const CONTACT_EMAIL       = import.meta.env.VITE_CONTACT_EMAIL
 
 const content = {
   es: {
@@ -185,7 +186,7 @@ export default function Portfolio() {
       await emailjs.send(
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
-        { from_name: form.name, from_email: form.email, message: form.message, to_email: 'giancarlogravagnatrabajo@gmail.com' },
+        { from_name: form.name, from_email: form.email, message: form.message, to_email: CONTACT_EMAIL },
         { publicKey: EMAILJS_PUBLIC_KEY },
       )
       setSent(true)

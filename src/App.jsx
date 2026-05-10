@@ -19,6 +19,8 @@ const content = {
       greeting: 'Hola, soy',
       role: 'Desarrollador Full Stack',
       cta: 'Ver mi trabajo',
+      cv: 'Descargar CV',
+      cvFile: '/Giancarlo_Gravagna_CV_ES.pdf',
     },
     about: {
       title: 'Sobre Mí',
@@ -96,6 +98,8 @@ const content = {
       greeting: "Hi, I'm",
       role: 'Full Stack Developer',
       cta: 'See my work',
+      cv: 'Download CV',
+      cvFile: '/Giancarlo_Gravagna_CV_EN.pdf',
     },
     about: {
       title: 'About Me',
@@ -642,9 +646,19 @@ export default function Portfolio() {
             <em>Gravagna</em>
           </h1>
           <p className="hero-sub">{t.hero.role}</p>
-          <button className="hero-btn" onClick={() => scrollTo('about')}>
-            {t.hero.cta} <span style={{ fontSize: '1.1rem' }}>↓</span>
-          </button>
+          <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+            <button className="hero-btn" onClick={() => scrollTo('about')}>
+              {t.hero.cta} <span style={{ fontSize: '1.1rem' }}>↓</span>
+            </button>
+            <a
+              className="hero-btn"
+              href={t.hero.cvFile}
+              download
+              style={{ textDecoration: 'none' }}
+            >
+              {t.hero.cv} <span style={{ fontSize: '1rem' }}>↓</span>
+            </a>
+          </div>
         </div>
       </section>
 

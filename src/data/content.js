@@ -6,6 +6,8 @@ const content = {
       projects: 'Proyectos',
       experience: 'Experiencia',
       contact: 'Contacto',
+      dark: 'Oscuro',
+      light: 'Claro',
     },
     hero: {
       greeting: 'Hola, soy',
@@ -73,6 +75,8 @@ const content = {
       projects: 'Projects',
       experience: 'Experience',
       contact: 'Contact',
+      dark: 'Dark',
+      light: 'Light',
     },
     hero: {
       greeting: "Hi, I'm",

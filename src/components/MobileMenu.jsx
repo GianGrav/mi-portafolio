@@ -36,7 +36,7 @@ export default function MobileMenu({ t, scrollTo, menuOpen, setMenuOpen, lang, s
           className={`mobile-ctrl-btn ${dark ? 'pressed' : ''}`}
           onClick={() => setDark((d) => !d)}
         >
-          {dark ? <><MoonIcon /> Oscuro</> : <><SunIcon /> Claro</>}
+          {dark ? <><MoonIcon /> {t.nav.dark}</> : <><SunIcon /> {t.nav.light}</>}
         </button>
       </div>
       {NAV_SECTIONS.map((s) => (

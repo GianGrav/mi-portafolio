@@ -23,9 +23,21 @@ const content = {
     skills: {
       title: 'Habilidades',
       categories: [
-        { name: 'Frontend',        items: ['React', 'HTML5', 'CSS3', 'JavaScript', 'TypeScript'], icon: '◈' },
-        { name: 'Backend',         items: ['Node.js', 'Python', 'Express', 'REST APIs'],          icon: '◉' },
-        { name: 'Bases de Datos',  items: ['PostgreSQL', 'MySQL', 'MongoDB'],                     icon: '◎' },
+        {
+          name: 'Frontend',
+          items: ['React', 'HTML5', 'CSS3', 'JavaScript', 'TypeScript'],
+          icon: '◈',
+        },
+        {
+          name: 'Backend',
+          items: ['Node.js', 'Python', 'Express', 'REST APIs'],
+          icon: '◉',
+        },
+        {
+          name: 'Bases de Datos',
+          items: ['PostgreSQL', 'MySQL', 'MongoDB'],
+          icon: '◎',
+        },
       ],
     },
     projects: {
@@ -33,10 +45,18 @@ const content = {
       privateRepo: 'Repositorio privado',
       items: [
         {
-          name: 'KASH',
+          name: 'KASHBOARD',
           category: 'Finanzas personales',
           desc: 'App web de gestión financiera personal que corre completamente en el navegador sin backend. Multi-moneda con cotizaciones en tiempo real, plan de gastos con notas Markdown, gráficos de evolución patrimonial y backup local.',
-          stack: ['React 19', 'TypeScript', 'Tailwind CSS v4', 'Dexie.js', 'Zustand', 'Recharts', 'React Router'],
+          stack: [
+            'React 19',
+            'TypeScript',
+            'Tailwind CSS v4',
+            'Dexie.js',
+            'Zustand',
+            'Recharts',
+            'React Router',
+          ],
           repo: null,
           demo: 'https://kash-app-jet.vercel.app',
         },
@@ -92,9 +112,21 @@ const content = {
     skills: {
       title: 'Skills',
       categories: [
-        { name: 'Frontend',  items: ['React', 'HTML5', 'CSS3', 'JavaScript', 'TypeScript'], icon: '◈' },
-        { name: 'Backend',   items: ['Node.js', 'Python', 'Express', 'REST APIs'],          icon: '◉' },
-        { name: 'Databases', items: ['PostgreSQL', 'MySQL', 'MongoDB'],                     icon: '◎' },
+        {
+          name: 'Frontend',
+          items: ['React', 'HTML5', 'CSS3', 'JavaScript', 'TypeScript'],
+          icon: '◈',
+        },
+        {
+          name: 'Backend',
+          items: ['Node.js', 'Python', 'Express', 'REST APIs'],
+          icon: '◉',
+        },
+        {
+          name: 'Databases',
+          items: ['PostgreSQL', 'MySQL', 'MongoDB'],
+          icon: '◎',
+        },
       ],
     },
     projects: {
@@ -102,10 +134,18 @@ const content = {
       privateRepo: 'Private repository',
       items: [
         {
-          name: 'KASH',
+          name: 'KASHBOARD',
           category: 'Personal Finance',
           desc: 'Personal finance web app that runs entirely in the browser with no backend. Multi-currency with real-time exchange rates, spending plans with Markdown notes, wealth evolution charts and local backup.',
-          stack: ['React 19', 'TypeScript', 'Tailwind CSS v4', 'Dexie.js', 'Zustand', 'Recharts', 'React Router'],
+          stack: [
+            'React 19',
+            'TypeScript',
+            'Tailwind CSS v4',
+            'Dexie.js',
+            'Zustand',
+            'Recharts',
+            'React Router',
+          ],
           repo: null,
           demo: 'https://kash-app-jet.vercel.app',
         },
